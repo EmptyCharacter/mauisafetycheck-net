@@ -1,12 +1,12 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+          Get started by sending a text to&nbsp;
+          <code className="font-mono font-bold">(808) 555-5555</code>
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -15,7 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -47,7 +47,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+            Certifications{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -64,7 +64,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
+            Testimonials{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -81,7 +81,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
+            Car Rentals{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -98,7 +98,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
+            Safety Check{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -109,5 +109,74 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+    // <>
+    //   <div className="">
+    //     <h1>Maui Safety Check</h1>
+    //     <div>
+    //       <h2>ASE Certifications</h2>
+
+    //       <p>
+    //         At <strong>[Mechanic's Name]</strong>, expertise isn't just a
+    //         claim—it's backed by rigorous training and official recognition. As
+    //         a fully ASE (Automotive Service Excellence) certified professional,{" "}
+    //         <strong>[Mechanic's Name]</strong> has demonstrated mastery in
+    //         various automotive areas.
+    //       </p>
+
+    //       <ul>
+    //         <li>
+    //           <strong>ASE Certification:</strong> Our mechanic holds the
+    //           esteemed ASE certification, a testament to their exceptional skill
+    //           and knowledge in the automotive industry.
+    //         </li>
+
+    //         <li>
+    //           <strong>Specialized Proficiency:</strong> From engine repair to
+    //           brake systems, electrical diagnostics, and beyond,{" "}
+    //           <strong>[Mechanic's Name]</strong> excels in diverse automotive
+    //           disciplines, ensuring comprehensive care for your vehicle.
+    //         </li>
+
+    //         <li>
+    //           <strong>Quality Assurance:</strong> Trusting an ASE-certified
+    //           mechanic means entrusting your vehicle to someone equipped with
+    //           the latest industry standards, techniques, and a commitment to
+    //           excellence.
+    //         </li>
+
+    //         <li>
+    //           <strong>Continual Learning:</strong> Keeping pace with
+    //           ever-evolving automotive technology, our mechanic consistently
+    //           pursues ongoing education and updates to stay at the forefront of
+    //           the field.
+    //         </li>
+    //       </ul>
+    //     </div>
+
+    //     <div>
+    //       <h3>Testimonials</h3>
+    //       <div>
+    //         <p>Ruby L.</p>
+    //         <p>
+    //           "Consistently reliable and always there when I need help with car
+    //           troubles, Aaron is an absolute lifesaver. Their prompt and
+    //           dependable service makes handling automotive issues stress-free.""
+    //         </p>
+    //       </div>
+
+    //       <p>Joshua F.</p>
+    //       <p>Edwin W.</p>
+    //     </div>
+
+    //     <div>
+    //       <h3>Safety Checks</h3>
+    //     </div>
+
+    //     <div>
+    //       <h3>Car Rentals</h3>
+    //     </div>
+
+    //   </div>
+    // </>
+  );
 }
