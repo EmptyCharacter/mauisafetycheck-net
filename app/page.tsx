@@ -117,10 +117,10 @@ export default function Home() {
           <h1 className="text-center text-3xl">ASE Certifications</h1>
           <div>
             <p>
-              At <strong>Maui Safety Check</strong>, expertise isn't just a
-              claim—it's backed by rigorous training and official recognition.
+              At <strong>Maui Safety Check</strong>{`, expertise isn't just a`}
+              {`claim—it's`} backed by rigorous training and official recognition.
               As a fully ASE (Automotive Service Excellence) certified
-              professional, <strong>[Mechanic's Name]</strong> has demonstrated
+              professional, <strong>{`[Mechanic's Name]`}</strong> has demonstrated
               mastery in various automotive areas.
             </p>
 
@@ -221,10 +221,10 @@ export default function Home() {
                 </div>
 
                 <p className="text-sm opacity-60">
-                  "Consistently reliable and always there when I need help with
+                  {`"Consistently reliable and always there when I need help with
                   car troubles, Aaron is an absolute lifesaver. Their prompt and
                   dependable service makes handling automotive issues
-                  stress-free."
+                  stress-free."`}
                 </p>
               </div>
               <div>
@@ -287,10 +287,10 @@ export default function Home() {
                 </div>
 
                 <p className="text-sm opacity-60">
-                  "Consistently reliable and always there when I need help with
+                  {`"Consistently reliable and always there when I need help with
                   car troubles, Aaron is an absolute lifesaver. Their prompt and
                   dependable service makes handling automotive issues
-                  stress-free."
+                  stress-free."`}
                 </p>
               </div>
               <div>
@@ -353,10 +353,10 @@ export default function Home() {
                 </div>
 
                 <p className="text-sm opacity-60">
-                  "Consistently reliable and always there when I need help with
+                  {`"Consistently reliable and always there when I need help with
                   car troubles, Aaron is an absolute lifesaver. Their prompt and
                   dependable service makes handling automotive issues
-                  stress-free."
+                  stress-free."`}
                 </p>
               </div>
             </div>
