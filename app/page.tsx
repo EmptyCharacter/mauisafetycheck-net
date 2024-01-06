@@ -376,8 +376,7 @@ export default function Home() {
       <>
         <div className="bg-red-900 text-white flex items-center justify-center">
           <p className="uppercase text-xs tracking-widest text-center px-4 py-3">
-            livraison offerte en point relais mondial relay en france
-            métropolitaine
+            Call in before March to get spring discount {`(808) 555-5555`}
           </p>
         </div>
         <div className="flex items-center bg-slate-900 justify-center space-x-4">
@@ -416,7 +415,7 @@ export default function Home() {
               sizes="100vw"
               alt="Maui Safety Check Shop"
             />
-            <p>Let's get you on the road</p>
+            <p>{`Let's`} get you on the road</p>
             <button>Request A Quote</button>
           </div>
         </div>
@@ -428,7 +427,7 @@ export default function Home() {
           <p>
             Maui Safety Check is a leading brand in car design, manufacturing,
             and maintenance. With our cutting-edge technology, we give you
-            tomorrow's vehicles, today!
+            {`tomorrow's`} vehicles, today!
           </p>
         </div>
 
