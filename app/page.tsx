@@ -114,42 +114,42 @@ export default function Home() {
         <div className="font-mono p-24">
           <h1 className="text-center text-5xl">Maui Safety Check</h1>
 
-          <h1 className="text-center text-3xl">ASE Certifications</h1>
-          <div>
+          <div className="text-center">
             <p>
-              At <strong>Maui Safety Check</strong>{`, expertise isn't just a`}
-              {`claim—it's`} backed by rigorous training and official recognition.
-              As a fully ASE (Automotive Service Excellence) certified
-              professional, <strong>{`[Mechanic's Name]`}</strong> has demonstrated
-              mastery in various automotive areas.
+              At <strong>Maui Safety Check</strong>
+              {`, expertise isn't just a`}
+              {`claim—it's`} backed by rigorous training and official
+              recognition. As a fully ASE (Automotive Service Excellence)
+              certified professional, <strong>{`[Mechanic's Name]`}</strong> has
+              demonstrated mastery in various automotive areas.
             </p>
-
-            <ul className="grid grid-cols-4 p-7">
+            <h1 className="text-center text-3xl">ASE Certifications</h1>
+            add marquee here with badges
+            <ul className="grid grid-cols-4 space-x-6 p-7">
               <li>
-                <strong>ASE Certification:</strong> Our mechanic holds the
-                esteemed ASE certification, a testament to their exceptional
-                skill and knowledge in the automotive industry.
+                <p className="font-bold">ASE Certification</p>
+                Our mechanic boasts ASE certification, signifying top-notch
+                automotive expertise.
               </li>
 
               <li>
-                <strong>Specialized Proficiency:</strong> From engine repair to
-                brake systems, electrical diagnostics, and beyond,{" "}
-                <strong>Maui Safety Check </strong> excels in diverse automotive
-                disciplines, ensuring comprehensive care for your vehicle.
+                <p className="font-bold">Specialized Proficiency</p>
+                Maui Safety Check excels in varied automotive areas,
+                guaranteeing comprehensive vehicle care.{" "}
               </li>
 
               <li>
-                <strong>Quality Assurance:</strong> Trusting an ASE-certified
-                mechanic means entrusting your vehicle to someone equipped with
-                the latest industry standards, techniques, and a commitment to
-                excellence.
+                <p className="font-bold">Quality Assurance</p>
+                Entrust your vehicle to our ASE-certified mechanic committed to
+                excellence and industry standards.
               </li>
 
               <li>
-                <strong>Continual Learning:</strong> Keeping pace with
-                ever-evolving automotive technology, our mechanic consistently
-                pursues ongoing education and updates to stay at the forefront
-                of the field.
+                <p className="font-bold">Continual Learning</p>
+                <p className="text-xs">
+                  Our mechanic remains at the forefront, consistently pursuing
+                  education in evolving automotive tech.
+                </p>
               </li>
             </ul>
           </div>
