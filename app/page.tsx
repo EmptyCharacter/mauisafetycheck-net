@@ -117,11 +117,12 @@ export default function Home() {
           <h1 className="text-center text-3xl">ASE Certifications</h1>
           <div>
             <p>
-              At <strong>Maui Safety Check</strong>{`, expertise isn't just a`}
-              {`claim—it's`} backed by rigorous training and official recognition.
-              As a fully ASE (Automotive Service Excellence) certified
-              professional, <strong>{`[Mechanic's Name]`}</strong> has demonstrated
-              mastery in various automotive areas.
+              At <strong>Maui Safety Check</strong>
+              {`, expertise isn't just a`}
+              {`claim—it's`} backed by rigorous training and official
+              recognition. As a fully ASE (Automotive Service Excellence)
+              certified professional, <strong>{`[Mechanic's Name]`}</strong> has
+              demonstrated mastery in various automotive areas.
             </p>
 
             <ul className="grid grid-cols-4 p-7">
@@ -369,6 +370,78 @@ export default function Home() {
           <div>
             <h1 className="text-center text-3xl">Car Rentals</h1>
           </div>
+        </div>
+      </>
+
+      <>
+        <div className="bg-red-900 text-white flex items-center justify-center">
+          <p className="uppercase text-xs tracking-widest text-center px-4 py-3">
+            livraison offerte en point relais mondial relay en france
+            métropolitaine
+          </p>
+        </div>
+        <div className="flex items-center bg-slate-900 justify-center space-x-4">
+          <Image
+            src={"/MauiSafetyCheck.png"}
+            width={100}
+            height={250}
+            alt="Mechanic Shop Maui"
+          />
+          <a>Safety Check</a>
+          <a>Contact</a>
+          <a>About</a>
+        </div>
+
+        <div
+          style={{
+            position: "relative",
+            height: "60vh",
+            width: "100%",
+            clipPath: "inset(0 0 0 0)",
+          }}
+        >
+          <div
+            style={{
+              position: "fixed",
+              height: "100%",
+              width: "100%",
+              left: "0",
+              top: "0",
+            }}
+          >
+            <Image
+              src="https://images.unsplash.com/photo-1601942683467-990eb4b69224?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              layout="fill"
+              objectFit="cover"
+              sizes="100vw"
+              alt="Maui Safety Check Shop"
+            />
+            <p>Let's get you on the road</p>
+            <button>Request A Quote</button>
+          </div>
+        </div>
+
+        <div>
+          <h1>Maui Safety Check</h1>
+          <img></img>
+          <img></img>
+          <p>
+            Maui Safety Check is a leading brand in car design, manufacturing,
+            and maintenance. With our cutting-edge technology, we give you
+            tomorrow's vehicles, today!
+          </p>
+        </div>
+
+        <div>
+          <h1>Current Services</h1>
+        </div>
+
+        <div>
+          <h1>Client Testimonials</h1>
+        </div>
+
+        <div>
+          <h1>Get in touch</h1>
         </div>
       </>
     </>
